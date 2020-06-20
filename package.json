@@ -1,0 +1,20 @@
+{
+  "name": "dev-resume",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "node-sass": "^4.9.2",
+    "nuxt": "^2.13.0",
+    "nuxt-sass-resources-loader": "^2.0.2",
+    "sass-loader": "^7.0.3",
+    "vue-awesome-swiper": "^3.1.3",
+    "vue-typer": "^1.2.0"
+  },
+  "devDependencies": {}
+}

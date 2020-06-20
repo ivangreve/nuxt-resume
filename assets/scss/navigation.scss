@@ -1,0 +1,14 @@
+.navbar {
+    background-color: white;
+    box-shadow: 0px -9px 20px #000000;
+  
+    .nav {
+      &-item {
+        padding: 0 .5rem;
+      }
+      &-link {
+        padding: 1rem;
+        color: #888888;
+      }
+    }
+  }
