@@ -1,13 +1,16 @@
 <template>
   <div>
-    <div class="card" style="width: 80%; text-align: center">
+    <div
+      class="card shadow mb-5 bg-white rounded"
+      style="width: 80%; text-align: center"
+    >
       <a href="https://kelawar.com/" class="">
-        <img class="card-img-top" src="/images/kelawar.jpg" alt="Kelawar"
+        <img class="card-img-top" :src="projectInfo.image" alt="Kelawar"
       /></a>
       <div class="card-body">
-        <h5 class="card-title">Kelawar</h5>
+        <h5 class="card-title">{{ projectInfo.name }}</h5>
         <p class="card-text">
-          Kelawar Project.
+          {{ projectInfo.description }}
         </p>
       </div>
     </div>
@@ -16,6 +19,7 @@
 
 <script>
 export default {
+  props: ["projectInfo"],
   data() {
     return {};
   }
@@ -23,5 +27,7 @@ export default {
 </script>
 
 <style>
-
+.card {
+  border: none;
+}
 </style>

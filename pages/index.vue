@@ -28,28 +28,28 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger" @click="jumpTo('#about')" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education"
+            <a class="nav-link js-scroll-trigger" @click="jumpTo('#education')" href="#"
               >Education</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience"
+            <a class="nav-link js-scroll-trigger" @click="jumpTo('#experience')" href="#"
               >Experience</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            <a class="nav-link js-scroll-trigger" @click="jumpTo('#skills')" href="#">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests"
+            <a class="nav-link js-scroll-trigger"  @click="jumpTo('#interests')" href="#"
               >Interests</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            <a class="nav-link js-scroll-trigger" @click="jumpTo('#projects')" href="#" >Projects</a>
           </li>
         </ul>
       </div>
@@ -63,11 +63,17 @@
 
 <script>
 import Resume from "@/components/Resume";
+import jump from 'jump.js'
 
 export default {
   components: {
     Resume
-  }
+  },
+  methods: {
+    jumpTo(element){
+      jump(element);
+    }
+  },
 };
 </script>
 

@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "jump.js": "^1.0.2",
     "node-sass": "^4.9.2",
     "nuxt": "^2.13.0",
     "nuxt-sass-resources-loader": "^2.0.2",
