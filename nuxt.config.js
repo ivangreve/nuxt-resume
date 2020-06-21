@@ -10,6 +10,11 @@ export default {
    */
   head: {
     title: process.env.npm_package_name || "",
+    script: [
+      { src: "https://code.jquery.com/jquery-3.2.1.slim.min.js" },
+      { src: "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" },
+      { src: "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" }
+    ],
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -73,8 +78,8 @@ export default {
    ** https://nuxtjs.org/guide/plugins
    */
   plugins: [
-    { src: '~plugins/swiper.js', ssr: false },
-    { src: '~/plugins/vueTyper.js', ssr: false }
+    { src: "~plugins/swiper.js", ssr: false },
+    { src: "~/plugins/vueTyper.js", ssr: false }
   ],
   /*
    ** Nuxt.js dev-modules
@@ -97,42 +102,46 @@ export default {
         "@/assets/scss/resume.scss"
       ]
     ]
+
   ],
-  loading: { color: '#3B8070' },
+
+  loading: { color: "#3B8070" },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {
     /*
-    ** Run ESLint on save
-    */
-    extend (config, { isDev, isClient }) {
+     ** Run ESLint on save
+     */
+    extend(config, { isDev, isClient }) {
       if (isDev && isClient) {
-
         const vueLoader = config.module.rules.find(
-          ({loader}) => loader === 'vue-loader')
-        const { options: {loaders} } = vueLoader || { options: {} }
+          ({ loader }) => loader === "vue-loader"
+        );
+        const {
+          options: { loaders }
+        } = vueLoader || { options: {} };
         if (loaders) {
           for (const loader of Object.values(loaders)) {
-            changeLoaderOptions(Array.isArray(loader) ? loader : [loader])
+            changeLoaderOptions(Array.isArray(loader) ? loader : [loader]);
           }
         }
-        config.module.rules.forEach(rule => changeLoaderOptions(rule.use))
+        config.module.rules.forEach(rule => changeLoaderOptions(rule.use));
         // console.log(util.inspect(config.module.rules, { depth: 6 }))
       }
     }
   }
 };
 
-function changeLoaderOptions (loaders) {
+function changeLoaderOptions(loaders) {
   if (loaders) {
     for (const loader of loaders) {
-      if (loader.loader === 'sass-loader') {
+      if (loader.loader === "sass-loader") {
         Object.assign(loader.options, {
-          includePaths: ['./assets'],
+          includePaths: ["./assets"]
           // data: '@import "_imports";'
-        })
+        });
       }
     }
   }

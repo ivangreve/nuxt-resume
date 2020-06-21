@@ -25,7 +25,7 @@
       {{personalInfo.city}} · {{personalInfo.phoneNumber}} ·
       <a href="mailto:name@email.com">{{ personalInfo.email }}</a>
     </div>
-    <p class="mb-5 p-2">
+    <p class="mb-5">
       {{ personalInfo.myDescription}}
     </p>
     <ul class="list-inline list-social-icons mb-0">

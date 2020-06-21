@@ -6,7 +6,6 @@
       </section>
 
       <section
-        @click="jumpTo"
         class="resume-section p-3 p-lg-5 d-flex flex-column"
         id="education"
       >
@@ -42,7 +41,7 @@
 </template>
 
 <script>
-import jump from 'jump.js'
+import jump from "jump.js";
 import Presentation from "../components/Sections/Presentation";
 import Education from "../components/Sections/Education";
 import Experience from "../components/Sections/Experience";
@@ -57,13 +56,9 @@ export default {
     Education,
     Skills,
     Interests,
-    Projects,
+    Projects
   },
-  methods: {
-    jumpTo(){
-      jump("#projects");
-    }
-  },
+  methods: {}
 };
 </script>
 
