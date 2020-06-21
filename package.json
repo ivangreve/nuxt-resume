@@ -1,10 +1,10 @@
 {
-  "name": "dev-resume",
+  "name": "ivan-resume",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
+    "dev": "nuxt",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },

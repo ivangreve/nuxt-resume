@@ -2,7 +2,7 @@
   <div class="my-auto">
     <h2 class="mb-5">{{ this.educationDegrees.title }}</h2>
 
-    <div v-for="degree in this.educationDegrees.degrees" :key="degree" class="resume-item d-flex flex-column flex-md-row mb-5">
+    <div v-for="degree in this.educationDegrees.degrees" :key="degree.name" class="resume-item d-flex flex-column flex-md-row mb-5">
       <div class="resume-content mr-auto">
         <h3 class="mb-0">{{ degree.collage }}</h3>
         <div class="subheading mb-3">{{ degree.name }}</div>

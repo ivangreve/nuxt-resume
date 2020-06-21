@@ -15,7 +15,7 @@
         :type-delay="82"
         :pre-erase-delay="2000"
         :erase-delay="30"
-        erase-style="erase-back"
+        erase-style="backspace"
         :erase-on-complete="false"
         caret-animation="blink"
       ></vue-typer>

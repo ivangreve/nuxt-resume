@@ -4,7 +4,7 @@
 
     <div
       v-for="work in workExperiences.works"
-      :key="work"
+      :key="work.title"
       class="resume-item d-flex flex-column flex-md-row mb-5"
     >
       <div class="resume-content mr-auto">
