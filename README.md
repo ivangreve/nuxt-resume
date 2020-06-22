@@ -9,11 +9,11 @@
 ##  How to start? 🥳
 1) *Clone* the **repository**
 2) *Install* dependencies:
-		-  `$ npm install`
+  - `$ npm install`
 3) *Build* application:
-		-  `$ npm run build`
+  - `$ npm run build`
 4) *Run* in **dev mode**:
-		-  `$ npm run dev`
+  - `$ npm run dev`
 
 
 ## Configuration ⚙
@@ -25,12 +25,13 @@
 
 ### Languages Files 🌍
 **English**: `./locales/en.json`
+
 **Spanish** `./locales/es.json`
 
 ### Add new Language
 1.) *Create* a new language file in the folder `./locales` :
 - **eg.** : `fr.json`
-2) *Add* *i18n* file configuration in the ***nuxt.config.js***, 
+2) *Change* **i18n** configuration in the ***nuxt.config.js***, 
 ```javascript
 i18n: {
 	locales: ['en', 'es', 'fr'],
@@ -56,7 +57,7 @@ i18n: {
 
 ##  Generate static code 🥳
 1) In the **root** folder, run the following command:
-		-  `$ npm run generate`
+- `$ npm run generate`
 2) All the **generated** code will be apear in the `./dist` folder.
 
 
