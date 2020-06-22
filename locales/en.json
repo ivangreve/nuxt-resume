@@ -99,5 +99,27 @@
       "Team working",
       "Design Patterns"
     ]
+  },
+  "interests": {
+    "title": "Hobbies 😄",
+    "firstBlock": "Apart from being a web developer, I enjoy most of my time listening and playing music. I love playing piano and singing in my spare time!. 🎹🎵",
+    "secondBlock": "I spend a large amount of my free time exploring the latest technolgy advancements in the frontend and backend web technology development world and coding in my personal projects! 🙌👨‍💻"
+  },
+  "projects": {
+    "title": "Personal Projects 🦾🧠",
+    "projectsInfo": [
+      {
+        "name": "Kelawar",
+        "description": "Kelawar is a Big Data + IoT project. Which through masive recollections mecanism of data, we provide useful information about the clients behavior. ",
+        "image": "/images/kelawar.jpg",
+        "siteUrl": "https://kelawar.com/"
+      },
+      {
+        "name": "DriveBox",
+        "description": "DriveBox is a powerful power-up for google drive service.",
+        "image": "/images/drivebox.jpg",
+        "siteUrl": "https://www.google.com/"
+      }
+    ]
   }
 }

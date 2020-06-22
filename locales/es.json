@@ -99,5 +99,27 @@
       "Trabajo en equipo",
       "Patrones de diseño"
     ]
+  },
+  "interests": {
+    "title": "Hobbies 😄",
+    "firstBlock": "Además de ser desarrollador web, disfruto la gran parte de mi tiempo escuchando y tocando música. Me encanta cantar y tocar el piano en mis ratos libres!. 🎹🎵",
+    "secondBlock": "También le dedico una gran parte de mi tiempo libre a explorar las última tecnologias y avances en el mundo del backend/frontend, y programo en mis proyectos personales! 🙌👨‍💻"
+  },
+  "projects": {
+    "title": "Proyectos Personales 🦾🧠",
+    "projectsInfo": [
+      {
+        "name": "Kelawar",
+        "description": "Kelawar es un proyecto Big Data + IoT. El cual mediante mecanismos de recolección masiva de datos, brindamos información útil acerca del comportamiento de los clientes para mejorar la toma de decisiones.",
+        "image": "/images/kelawar.jpg",
+        "siteUrl": "https://kelawar.com/"
+      },
+      {
+        "name": "DriveBox",
+        "description": "DriveBox es un poderoso power-up para los servicios de Google Drive.",
+        "image": "/images/drivebox.jpg",
+        "siteUrl": "https://www.google.com/"
+      }
+    ]
   }
 }
