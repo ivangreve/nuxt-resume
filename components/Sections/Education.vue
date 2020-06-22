@@ -1,8 +1,12 @@
 <template>
   <div class="my-auto">
-    <h2 class="mb-5">{{ this.educationDegrees.title }}</h2>
+    <h2 class="mb-5">{{ $t("educationDegrees.title") }}</h2>
 
-    <div v-for="degree in this.educationDegrees.degrees" :key="degree.name" class="resume-item d-flex flex-column flex-md-row mb-5">
+    <div
+      v-for="degree in $t('educationDegrees.degrees')"
+      :key="degree.name"
+      class="resume-item d-flex flex-column flex-md-row mb-5"
+    >
       <div class="resume-content mr-auto">
         <h3 class="mb-0">{{ degree.collage }}</h3>
         <div class="subheading mb-3">{{ degree.name }}</div>
@@ -18,29 +22,7 @@
 <script>
 export default {
   data() {
-    return {
-      educationDegrees: {
-        title: "Education 📕",
-        degrees: [
-          {
-            collage: "University of La Matanza",
-            name: "Engineer Degree",
-            itemList: [
-              "Computer Science"
-            ],
-            startEndDate: "March 2013 - Dicember 2018"
-          },
-          {
-            collage: "Instituto Madero",
-            name: "Electronic technician",
-            itemList: [
-              "Electronic"
-            ],
-            startEndDate: "March 2007 - Dicember 2012"
-          },
-        ]
-      }
-    };
+    return {};
   }
 };
 </script>

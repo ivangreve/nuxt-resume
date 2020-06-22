@@ -1,9 +1,9 @@
 <template>
   <div class="my-auto">
-    <h2 class="mb-5">{{ this.workExperiences.title }}</h2>
+    <h2 class="mb-5">{{ $t('workExperiences.title') }}</h2>
 
     <div
-      v-for="work in workExperiences.works"
+      v-for="work in $t('workExperiences.works')"
       :key="work.title"
       class="resume-item d-flex flex-column flex-md-row mb-5"
     >
@@ -27,36 +27,7 @@
 <script>
 export default {
   data() {
-    return {
-      workExperiences: {
-        title: "Work Expecience 🔨",
-        works: [
-          {
-            position: "Software Engineer / FullStack Developer",
-            companie: "Axum - Smart Solutions",
-            responsabilities: [
-              "Responsible for designing, developing and maintaining a group of applications used by multinational companies as Pepsico, Unilever, Quilmes, etc.",
-              "Web Team leader, I take technical decisions aboute which technologies use in each project and how the team will works.",
-              "Backend Developer: .NET Core | .NET Framework | NodeJs | MSSQL | PostgreSQL | MongoDB.",
-              "Frontend Developer: VueJs | ReactJs | Javascript | JQuery.",
-              "Desktop Applications: .NET Windows Form Applications."
-            ],
-            startEndDate: "November 2017 - Present"
-          },
-          {
-            position: "Technical Administrator",
-            companie: "Metalurgica Vezeta",
-            responsabilities: [
-              "Responsible for web ecommerce designing and maintaining.",
-              "Graphic design (Adobe Photoshop and Adobe Illustrator).",
-              "Technical support.",
-              "Improve business processes."
-            ],
-            startEndDate: "March 2014 - October 2017"
-          }
-        ]
-      }
-    };
+    return { };
   }
 };
 </script>

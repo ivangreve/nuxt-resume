@@ -1,24 +1,103 @@
 {
-    "links": {
-      "about": "About",
-      "education": "Education",
-      "experience": "Experience",
-      "skills": "Skills",
-      "interests": "Interests",
-      "projects": "Projects"
-    },
-    "personalInfo": {
-      "name": "Iván",
-      "lastName": "Greve",
-      "subHeadingText": [
-        "Software Enginneer",
-        "Full Stack Developer",
-        "Code enthusiast!"
-      ],
-      "city": "Buenos Aires, Argentina",
-      "phoneNumber": "+54 - 6766-9851",
-      "email": "ivangreve@gmail.com",
-      "myDescription": "ES: Passionate web developer, making useful application using the latest technologies"
-    }
+  "links": {
+    "about": "Sobre mi",
+    "education": "Educación",
+    "experience": "Experiencia",
+    "skills": "Habilidades",
+    "interests": "Intereses",
+    "projects": "Proyectos"
+  },
+  "personalInfo": {
+    "name": "Iván",
+    "lastName": "Greve",
+    "subHeadingText": [
+      "Software Enginneer",
+      "Full Stack Developer",
+      "Amante del Codigo!"
+    ],
+    "city": "Buenos Aires, Argentina",
+    "phoneNumber": "+54 - 6766-9851",
+    "email": "ivangreve@gmail.com",
+    "myDescription": "Desarrollador web apasionado, desarrollando aplicaciones útiles siempre utilizando las últimas tecnologías!"
+  },
+  "educationDegrees": {
+    "title": "Educación 📕",
+    "degrees": [
+      {
+        "collage": "Universidad de La Matanza",
+        "name": "Ingeniero en Informática",
+        "itemList": ["Ciencias de la Computación"],
+        "startEndDate": "Marzo 2013 - Diciembre 2018"
+      },
+      {
+        "collage": "Instituto Madero",
+        "name": "Técnico en electrónica - Telecomunicaciones",
+        "itemList": ["Electrónica"],
+        "startEndDate": "Marzo 2007 - Diciembre 2012"
+      }
+    ]
+  },
+  "workExperiences": {
+    "title": "Experiencia Laboral 🔨",
+    "works": [
+      {
+        "position": "Ingeniero en Informática / Desarrollador FullStack",
+        "companie": "Axum - Soluciones Inteligentes",
+        "responsabilities": [
+          "Responsable de diseñar, codificar y mantener grupos de aplicaciones usadas en el mundo del retail por empresas multinacionales como Pepsico, Unilever, Quilmes, etc.",
+          "Lider del equipo web, estoy a cargo de la toma de desciciones técnicas y acerca de como el equipo va a trabajar en los diferentes proyectos.",
+          "Desarrollador Backend: .NET Core | .NET Framework | NodeJs | MSSQL | PostgreSQL | MongoDB.",
+          "Desarrollador Frontend: VueJs | ReactJs | Javascript | JQuery.",
+          "Aplicaciones de Escritorio: .NET Windows Form Applications."
+        ],
+        "startEndDate": "Noviembre 2017 - Presente"
+      },
+      {
+        "position": "Administrador Técnico",
+        "companie": "Metalurgica Vezeta",
+        "responsabilities": [
+          "Responsable del diseño y mantenimiento del ecommerce.",
+          "Diseño Gráfico (Adobe Photoshop and Adobe Illustrator).",
+          "Soporte Técnico.",
+          "Mejora de los procesos de negocio."
+        ],
+        "startEndDate": "Marzo 2014 - Octubre 2017"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Habilidades 🎯",
+    "iconsTitle": "Lenguajes de Programación & Herramientas",
+    "devIcons": [
+      "devicon-csharp-plain",
+      "devicon-javascript-plain",
+      "devicon-html5-plain-wordmark",
+      "devicon-css3-plain-wordmark",
+      "devicon-git-plain",
+      "devicon-nodejs-plain",
+      "devicon-bootstrap-plain",
+      "devicon-github-original",
+      "devicon-bitbucket-original-wordmark",
+      "devicon-dot-net-original-wordmark",
+      "devicon-jquery-plain-wordmark",
+      "devicon-linux-plain",
+      "devicon-windows8-original",
+      "devicon-illustrator-plain",
+      "devicon-photoshop-plain",
+      "devicon-react-original",
+      "devicon-visualstudio-plain",
+      "devicon-dot-net-plain",
+      "devicon-vuejs-plain",
+      "devicon-postgresql-plain"
+    ],
+    "workflow": "Workflow",
+    "itemList": [
+      "Diseño Responsive & UX",
+      "Cross Browser Testing & Debugging",
+      "Contrucción de REST API",
+      "Desarrollo Ágil & Scrum",
+      "Trabajo en equipo",
+      "Patrones de diseño"
+    ]
   }
-  
+}

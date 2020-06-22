@@ -32,7 +32,7 @@
               class="nav-link js-scroll-trigger"
               @click="jumpTo('#about')"
               href="#"
-              >About</a
+              >{{ $t('links.about') }}</a
             >
           </li>
           <li class="nav-item">
@@ -40,7 +40,7 @@
               class="nav-link js-scroll-trigger"
               @click="jumpTo('#education')"
               href="#"
-              >Education</a
+              >{{ $t('links.education') }}</a
             >
           </li>
           <li class="nav-item">
@@ -48,7 +48,7 @@
               class="nav-link js-scroll-trigger"
               @click="jumpTo('#experience')"
               href="#"
-              >Experience</a
+              >{{ $t('links.experience') }}</a
             >
           </li>
           <li class="nav-item">
@@ -56,7 +56,7 @@
               class="nav-link js-scroll-trigger"
               @click="jumpTo('#skills')"
               href="#"
-              >Skills</a
+              >{{ $t('links.skills') }}</a
             >
           </li>
           <li class="nav-item">
@@ -64,7 +64,7 @@
               class="nav-link js-scroll-trigger"
               @click="jumpTo('#interests')"
               href="#"
-              >Interests</a
+              >{{ $t('links.interests') }}</a
             >
           </li>
           <li class="nav-item">
@@ -72,7 +72,7 @@
               class="nav-link js-scroll-trigger"
               @click="jumpTo('#projects')"
               href="#"
-              >Projects</a
+              >{{ $t('links.projects') }}</a
             >
           </li>
           <li class="nav-item">
