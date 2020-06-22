@@ -55,10 +55,10 @@ i18n: {
 ```
 
 ##  Generate static code 🥳
-1) In the root folder, run the following command:
+1) In the **root** folder, run the following command:
 		-  `$ npm run generate`
-2) All the *generated* code will be apear in the `./dist` folder
-```bash
+2) All the **generated** code will be apear in the `./dist` folder.
+
 
 ## Used Technologies/Tools 🔧🦾
 
