@@ -21,7 +21,7 @@
 ***You can easily customize the template and the languages!*** 🚀
 - To do this, you have to edit the **locales** files as you want! 📄
 
-![locates](./documentation/localefile.jpg)
+![locates](./documentation/localefiles.jpg)
 
 ### Languages Files 🌍
 **English**: `./locales/en.json`
