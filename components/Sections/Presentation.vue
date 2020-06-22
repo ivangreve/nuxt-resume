@@ -1,13 +1,13 @@
 <template>
   <div class="my-auto">
     <h1 class="mb-0">
-      {{ this.personalInfo.name }}
-      <span class="text-primary">{{ this.personalInfo.lastName }}</span>
+      {{ $t('personalInfo.name') }}
+      <span class="text-primary">{{ $t('personalInfo.lastName') }}</span>
     </h1>
 
     <h3 class="mb-4">
       <vue-typer
-        :text="personalInfo.subHeadingText"
+        :text="$t('personalInfo.subHeadingText')"
         :repeat="Infinity"
         :shuffle="true"
         initial-action="typing"
@@ -22,11 +22,11 @@
     </h3>
 
     <div class="subheading mb-5">
-      {{personalInfo.city}} · {{personalInfo.phoneNumber}} ·
-      <a href="mailto:name@email.com">{{ personalInfo.email }}</a>
+      {{ $t('personalInfo.city') }} · {{ $t('personalInfo.phoneNumber') }} ·
+      <a href="mailto:name@email.com">{{ $t('personalInfo.email') }}</a>
     </div>
     <p class="mb-5">
-      {{ personalInfo.myDescription}}
+      {{ $t('personalInfo.myDescription') }}
     </p>
     <ul class="list-inline list-social-icons mb-0">
       <!-- <li class="list-inline-item">
@@ -62,19 +62,19 @@
 export default {
   data() {
     return {
-      personalInfo: {
-        name: "Iván",
-        lastName: "Greve",
-        subHeadingText: [
-                'Software Enginneer',
-                'Full Stack Developer',
-                'Code enthusiast!'
-              ],
-        city: "Buenos Aires, Argentina",
-        phoneNumber: "+54 - 6766-9851",
-        email:"ivangreve@gmail.com",
-        myDescription: "Passionate web developer, making useful application using the latest technologies"
-      }
+      // personalInfo: {
+      //   name: "Iván",
+      //   lastName: "Greve",
+      //   subHeadingText: [
+      //           'Software Enginneer',
+      //           'Full Stack Developer',
+      //           'Code enthusiast!'
+      //         ],
+      //   city: "Buenos Aires, Argentina",
+      //   phoneNumber: "+54 - 6766-9851",
+      //   email:"ivangreve@gmail.com",
+      //   myDescription: "Passionate web developer, making useful application using the latest technologies"
+      // }
     };
   }
 };

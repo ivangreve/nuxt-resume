@@ -1,0 +1,24 @@
+{
+    "links": {
+      "about": "About",
+      "education": "Education",
+      "experience": "Experience",
+      "skills": "Skills",
+      "interests": "Interests",
+      "projects": "Projects"
+    },
+    "personalInfo": {
+      "name": "Iván",
+      "lastName": "Greve",
+      "subHeadingText": [
+        "Software Enginneer",
+        "Full Stack Developer",
+        "Code enthusiast!"
+      ],
+      "city": "Buenos Aires, Argentina",
+      "phoneNumber": "+54 - 6766-9851",
+      "email": "ivangreve@gmail.com",
+      "myDescription": "ES: Passionate web developer, making useful application using the latest technologies"
+    }
+  }
+  

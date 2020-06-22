@@ -28,28 +28,62 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" @click="jumpTo('#about')" href="#">About</a>
+            <a
+              class="nav-link js-scroll-trigger"
+              @click="jumpTo('#about')"
+              href="#"
+              >About</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" @click="jumpTo('#education')" href="#"
+            <a
+              class="nav-link js-scroll-trigger"
+              @click="jumpTo('#education')"
+              href="#"
               >Education</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" @click="jumpTo('#experience')" href="#"
+            <a
+              class="nav-link js-scroll-trigger"
+              @click="jumpTo('#experience')"
+              href="#"
               >Experience</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" @click="jumpTo('#skills')" href="#">Skills</a>
+            <a
+              class="nav-link js-scroll-trigger"
+              @click="jumpTo('#skills')"
+              href="#"
+              >Skills</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger"  @click="jumpTo('#interests')" href="#"
+            <a
+              class="nav-link js-scroll-trigger"
+              @click="jumpTo('#interests')"
+              href="#"
               >Interests</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" @click="jumpTo('#projects')" href="#" >Projects</a>
+            <a
+              class="nav-link js-scroll-trigger"
+              @click="jumpTo('#projects')"
+              href="#"
+              >Projects</a
+            >
+          </li>
+          <li class="nav-item">
+            <div style="position:fixed; bottom:10px; right: 10px;z-index:1000;">
+              <nuxt-link class="btn btn-light" :to="switchLocalePath('en')"
+                >EN</nuxt-link
+              >
+              <nuxt-link class="btn btn-light" :to="switchLocalePath('es')"
+                >ES</nuxt-link
+              >
+            </div>
           </li>
         </ul>
       </div>
@@ -63,17 +97,17 @@
 
 <script>
 import Resume from "@/components/Resume";
-import jump from 'jump.js'
+import jump from "jump.js";
 
 export default {
   components: {
     Resume
   },
   methods: {
-    jumpTo(element){
+    jumpTo(element) {
       jump(element);
     }
-  },
+  }
 };
 </script>
 

@@ -90,6 +90,12 @@ export default {
    */
   modules: [
     [
+      'nuxt-i18n',
+      {
+        /* module options */
+      }
+    ],
+    [
       "nuxt-sass-resources-loader",
       [
         "@/assets/scss/navigation.scss",
@@ -104,7 +110,17 @@ export default {
     ]
 
   ],
-
+  i18n: {
+    locales: ['en', 'es'],
+    defaultLocale: 'en',
+    vueI18n: {
+      fallbackLocale: 'en',
+      messages: {
+        en: require('./locales/en.json'),
+        es: require('./locales/es.json')
+      }
+    }
+  },
   loading: { color: "#3B8070" },
   /*
    ** Build configuration
