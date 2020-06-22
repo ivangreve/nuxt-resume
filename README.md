@@ -7,19 +7,19 @@
 
 
 ##  How to start? 🥳
-1) *Clone* the **repository**
-2) *Install* dependencies:
+1) **Clone** the **repository**
+2) **Install** dependencies:
   - `$ npm install`
-3) *Build* application:
+3) **Build** application:
   - `$ npm run build`
-4) *Run* in **dev mode**:
+4) **Run** in **dev mode**:
   - `$ npm run dev`
 
 
 ## Configuration ⚙
 
 ***You can easily customize the template and the languages!*** 🚀
-- To do this, you have to edit the **locales** files as you want! 📄
+- To do this, you have to **edit** the **locales** files as you want! 📄
 
 ![locates](./documentation/localefiles.jpg)
 
@@ -29,9 +29,9 @@
 **Spanish** `./locales/es.json`
 
 ### Add new Language
-1.) *Create* a new language file in the folder `./locales` :
+1) **Create** a new language file in the folder `./locales` :
 - **eg.** : `fr.json`
-2) *Change* **i18n** configuration in the ***nuxt.config.js***, 
+2) **Change** **i18n** configuration in the ***nuxt.config.js***, 
 ```javascript
 i18n: {
 	locales: ['en', 'es', 'fr'],
