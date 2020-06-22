@@ -12,8 +12,14 @@ export default {
     title: process.env.npm_package_name || "",
     script: [
       { src: "https://code.jquery.com/jquery-3.2.1.slim.min.js" },
-      { src: "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" },
-      { src: "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" }
+      {
+        src:
+          "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      },
+      {
+        src:
+          "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      }
     ],
     meta: [
       { charset: "utf-8" },
@@ -72,7 +78,10 @@ export default {
   /*
    ** Global CSS
    */
-  css: ["@/assets/css/resume.min.css", "swiper/dist/css/swiper.css"],
+  // css: ["@/assets/css/resume.min.css", "swiper/dist/css/swiper.css"],
+  css: [
+    '@/assets/scss/resume.scss'
+  ],
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
@@ -84,40 +93,35 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: [],
+  buildModules: ["@nuxtjs/style-resources"],
+  styleResources: {
+    // your settings here
+    scss: [
+      "'./assets/scss/*.scss'",
+      "./assets/scss/resume.scss"
+    ]
+  },
   /*
    ** Nuxt.js modules
    */
   modules: [
     [
-      'nuxt-i18n',
+      "nuxt-i18n",
       {
         /* module options */
       }
     ],
-    [
-      "nuxt-sass-resources-loader",
-      [
-        "@/assets/scss/navigation.scss",
-        "@/assets/scss/_bootstrap-overrides.scss",
-        "@/assets/scss/_global.scss",
-        "@/assets/scss/_mixins.scss",
-        "@/assets/scss/_nav.scss",
-        "@/assets/scss/_resume-item.scss",
-        "@/assets/scss/_variables.scss",
-        "@/assets/scss/resume.scss"
-      ]
-    ]
 
+    [ '@nuxtjs/style-resources' ]
   ],
   i18n: {
-    locales: ['en', 'es'],
-    defaultLocale: 'en',
+    locales: ["en", "es"],
+    defaultLocale: "en",
     vueI18n: {
-      fallbackLocale: 'en',
+      fallbackLocale: "en",
       messages: {
-        en: require('./locales/en.json'),
-        es: require('./locales/es.json')
+        en: require("./locales/en.json"),
+        es: require("./locales/es.json")
       }
     }
   },
@@ -140,25 +144,25 @@ export default {
         } = vueLoader || { options: {} };
         if (loaders) {
           for (const loader of Object.values(loaders)) {
-            changeLoaderOptions(Array.isArray(loader) ? loader : [loader]);
+            //changeLoaderOptions(Array.isArray(loader) ? loader : [loader]);
           }
         }
-        config.module.rules.forEach(rule => changeLoaderOptions(rule.use));
+        //config.module.rules.forEach(rule => changeLoaderOptions(rule.use));
         // console.log(util.inspect(config.module.rules, { depth: 6 }))
       }
     }
   }
 };
 
-function changeLoaderOptions(loaders) {
-  if (loaders) {
-    for (const loader of loaders) {
-      if (loader.loader === "sass-loader") {
-        Object.assign(loader.options, {
-          includePaths: ["./assets"]
-          // data: '@import "_imports";'
-        });
-      }
-    }
-  }
-}
+// function changeLoaderOptions(loaders) {
+//   if (loaders) {
+//     for (const loader of loaders) {
+//       if (loader.loader === "sass-loader") {
+//         Object.assign(loader.options, {
+//           includePaths: ["./assets"]
+//           // data: '@import "_imports";'
+//         });
+//       }
+//     }
+//   }
+//}
