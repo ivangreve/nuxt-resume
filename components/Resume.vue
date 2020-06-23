@@ -63,7 +63,5 @@ export default {
 </script>
 
 <style>
-.vue-typer .custom.char {
-  color: #343a40;
-}
+
 </style>

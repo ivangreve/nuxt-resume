@@ -52,9 +52,9 @@ i18n: {
 3) You can easily change the actual language by following way:
 ```html
 <div>
-	<v-btn small :to="switchLocalePath('en')" depressed>EN</v-btn>
-	<v-btn small :to="switchLocalePath('es')" depressed>ES</v-btn>
-	<v-btn small :to="switchLocalePath('fr')" depressed>FR</v-btn>
+	<nuxt-link class="btn btn-light" :to="switchLocalePath('en')">EN</nuxt-link>
+	<nuxt-link class="btn btn-light" :to="switchLocalePath('es')">ES</nuxt-link>
+	<nuxt-link class="btn btn-light" :to="switchLocalePath('fr')">FR</nuxt-link>
 </div>
 ```
 
