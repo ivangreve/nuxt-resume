@@ -1,5 +1,5 @@
 
-# Resume Nuxt + i18n (Multilanguage) ✨🌍
+# ResuMe Nuxt + i18n (Multilanguage) ✨🌍
 
 An easy way to **build** you own personal web resume! 💪
 ### [Check the Demo 💾](https://ivangreve.com/)
