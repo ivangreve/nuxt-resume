@@ -112,7 +112,7 @@
     "projectsInfo": [
       {
         "name": "Kelawar",
-        "description": "Kelawar is a Big Data + IoT project. Which through masive recollections mecanism of data, we provide useful information about the clients behavior. ",
+        "description": "Kelawar is a Big Data + IoT project. Which through masive recollections of data, we provide useful information about the clients behavior. ",
         "image": "/images/kelawar.jpg",
         "siteUrl": "https://kelawar.com/"
       },
@@ -120,7 +120,13 @@
         "name": "DriveBox",
         "description": "DriveBox is a powerful power-up for google drive service.",
         "image": "/images/drivebox.jpg",
-        "siteUrl": "https://www.google.com/"
+        "siteUrl": "https://www.kelawar.com/"
+      },
+      {
+        "name": "Resume Nuxt Template",
+        "description": "I made a simple and customizable template with nuxt and multilanguage support (i18n)",
+        "image": "/images/resumenuxt.jpg",
+        "siteUrl": "https://github.com/ivangreve/nuxt-resume"
       }
     ]
   }

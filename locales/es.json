@@ -120,7 +120,13 @@
         "name": "DriveBox",
         "description": "DriveBox es un poderoso power-up para los servicios de Google Drive.",
         "image": "/images/drivebox.jpg",
-        "siteUrl": "https://www.google.com/"
+        "siteUrl": "https://www.kelawar.com/"
+      },
+      {
+        "name": "Resume Nuxt Template",
+        "description": "Simple y customizable template hecho con Nuxt y con soporte multilenguaje (i18n)",
+        "image": "/images/resumenuxt.jpg",
+        "siteUrl": "https://github.com/ivangreve/nuxt-resume"
       }
     ]
   }
