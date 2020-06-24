@@ -1,6 +1,8 @@
 
 # ResuMe Nuxt + i18n (Multilanguage) ✨🌍
 
+![locates](./documentation/ResumeLogo.png)
+
 An easy way to **build** you own personal web resume! 💪
 ### [Check the Demo 💾](https://ivangreve.com/)
 
