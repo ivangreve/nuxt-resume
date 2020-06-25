@@ -32,6 +32,12 @@
         "startEndDate": "March 2013 - December 2018"
       },
       {
+        "collage": "University of La Matanza",
+        "name": "Software Engineering Technician",
+        "itemList": ["Computer Science"],
+        "startEndDate": "March 2013 - December 2016"
+      },
+      {
         "collage": "Instituto Madero",
         "name": "Electronic technician",
         "itemList": ["Electronic"],
@@ -47,7 +53,7 @@
         "companie": "Axum - Smart Solutions",
         "responsabilities": [
           "Responsible for designing, developing and maintaining a group of applications used in the retail industry by multinational companies as Pepsico, Unilever, Quilmes, etc.",
-          "Web Team leader, I take technical decisions aboute which technologies use in each project and how the team will works.",
+          "Web Team leader, I take technical decisions about which technologies use in each project and how the team will works.",
           "Backend Developer: .NET Core | .NET Framework | NodeJs | MSSQL | PostgreSQL | MongoDB.",
           "Frontend Developer: VueJs | ReactJs | Javascript | JQuery.",
           "Desktop Applications: .NET Windows Form Applications."
