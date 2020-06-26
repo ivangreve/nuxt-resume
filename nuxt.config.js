@@ -48,12 +48,6 @@ export default {
         href:
           "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
       },
-      // {
-      //   rel: "stylesheet",
-      //   type: "text/css",
-      //   href:
-      //     "https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css"
-      // },
       {
         rel: "stylesheet",
         type: "text/css",
@@ -89,7 +83,6 @@ export default {
    ** Global CSS
    */
   css: ["@/assets/css/resume.css"],
-  // css: ["@/assets/scss/resume.scss", '@/assets/css/main.css'],
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
@@ -159,15 +152,3 @@ export default {
   }
 };
 
-// function changeLoaderOptions(loaders) {
-//   if (loaders) {
-//     for (const loader of loaders) {
-//       if (loader.loader === "sass-loader") {
-//         Object.assign(loader.options, {
-//           includePaths: ["./assets"]
-//           // data: '@import "_imports";'
-//         });
-//       }
-//     }
-//   }
-//}

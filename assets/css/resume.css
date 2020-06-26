@@ -150,6 +150,10 @@ body {
     color: var(--color-text-primary);
   }
 
+.card-body, .card-title {
+    color: #868e96
+}
+
   /* COLOR STYLES */
 
   :root {
@@ -166,6 +170,7 @@ body {
   }
   
   .dark-mode {
+    
     --color: #ebf4f1;
     --color-primary: #0a0d0f;
     --color-secondary: #000000;
