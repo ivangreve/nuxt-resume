@@ -110,6 +110,11 @@ export default {
     Resume,
     DarkModeBtn
   },
+  head() {
+    return {
+      title: "Iván Greve"
+    };
+  },
   methods: {
     jumpTo(element) {
       jump(element);
