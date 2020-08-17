@@ -123,6 +123,12 @@
         "siteUrl": "https://kelawar.com/"
       },
       {
+        "name": "Docuisy",
+        "description": "Wiki .md, generator",
+        "image": "/images/docuisy.jpg",
+        "siteUrl": "https://github.com/ivangreve/docuisy"
+      },
+      {
         "name": "DriveBox",
         "description": "DriveBox is a powerful power-up for google drive service.",
         "image": "/images/drivebox.jpg",
