@@ -124,8 +124,8 @@
       },
       {
         "name": "Docuisy",
-        "description": "Wiki .md, generator",
-        "image": "/images/docuisy.jpg",
+        "description": "Docuisy is a Wiki, generator based on .md files",
+        "image": "/images/docuisy.png",
         "siteUrl": "https://github.com/ivangreve/docuisy"
       },
       {

@@ -124,8 +124,8 @@
       },
       {
         "name": "Docuisy",
-        "description": "Creador de Wiki .md dinámico",
-        "image": "/images/docuisy.jpg",
+        "description": "Docuisy es un creador de Wikis basadas en archivos .md",
+        "image": "/images/docuisy.png",
         "siteUrl": "https://github.com/ivangreve/docuisy"
       },
       {
