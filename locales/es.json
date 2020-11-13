@@ -129,10 +129,10 @@
         "siteUrl": "https://github.com/ivangreve/docuisy"
       },
       {
-        "name": "DriveBox",
-        "description": "DriveBox es un poderoso power-up para los servicios de Google Drive.",
-        "image": "/images/drivebox.jpg",
-        "siteUrl": "https://www.kelawar.com/"
+        "name": "Better Drive",
+        "description": "Better Drive es una herramienta gratuita para analizar su cuenta de Google Drive. Google Drive es un poderoso servicio de almacenamiento y sincronización de archivos, pero a veces usted puede sentir que pierde el control de estos. Teniendo en cuenta las preocupaciones de privacidad que tienen muchos usuarios, creamos esta gran herramienta para ayudarlo a organizar, limpiar y aprovechar el uso de su Google Drive.",
+        "image": "/images/better-drive.png",
+        "siteUrl": "https://betterdrive.app/"
       },
       {
         "name": "Resume Nuxt Template",
