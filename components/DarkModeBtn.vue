@@ -10,6 +10,12 @@ export default {
   components: {},
   mounted(){
     this.setLightMode();
+
+    setTimeout(() => {this.setLightMode()}, 3000);
+
+    async function x() {
+      await setTimeout(() => {this.setLightMode()}, 3000)
+    }
   },
   data() {
     return {

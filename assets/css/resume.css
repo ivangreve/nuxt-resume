@@ -31,6 +31,10 @@ body {
   h2 {
     font-size: 3.5rem;
   }
+
+  h3 {
+    font-size: 1.75rem;
+  }
   
   .subheading {
     text-transform: uppercase;
@@ -143,7 +147,7 @@ body {
   }
   
   a:hover, a:focus, a:active {
-    color: var(--color-primary-hover);
+    color: var(--color-secondary-hover);
   }
   
   .vue-typer .custom.char {
@@ -173,8 +177,8 @@ body {
     
     --color: #ebf4f1;
     --color-primary: #0a0d0f;
-    --color-secondary: #000000;
-    --color-primary-hover: #020405;
+    --color-secondary: #3b833b;
+    --color-primary-hover: #3b833b;
     --color-text-primary: #ffffff;
     --color-text-secondary: #e2e2e2; 
     --bg: #081927;
@@ -190,4 +194,9 @@ body {
   }
   a {
     color: var(--color-primary)
+  }
+
+  .about-photo {
+    margin-top: 20px;
+    max-width: 100%;
   }

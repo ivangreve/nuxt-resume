@@ -1,144 +1,155 @@
 {
   "links": {
-    "about": "About",
+    "about": "Thomas Underwood",
     "education": "Education",
     "experience": "Experience",
-    "skills": "Skills",
-    "interests": "Interests",
+    "skills": "Skills & Portfolio",
+    "interests": "About Me",
     "projects": "Projects"
   },
   "personalInfo": {
-    "name": "Iván",
-    "lastName": "Greve",
+    "name": "Thomas",
+    "lastName": "Underwood",
     "subHeadingText": [
-      "Software Enginneer",
-      "Full Stack Developer",
-      "Code enthusiast!"
+      "Web Developer",
+      "Content Creator",
+      "Database Administrator",
+      "Code Enthusiast!"
     ],
-    "city": "Buenos Aires, Argentina",
-    "phoneNumber": "+54 - 6766-9851",
-    "email": "ivangreve@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/ivan-greve/",
-    "github": "https://github.com/ivangreve/",
-    "myDescription": "Passionate web developer, making useful application using the latest technologies!"
+    "city": "Australia",
+    "phoneNumber": "+61 410 603 270",
+    "email": "tomunderwood.dev@gmail.com",
+    "myDescription": "I'm a passionate web-developer and content creator. My affinity is for back-end development and database design, however have spent most of my time working on front-end projects. Websites with beautiful UI/UX, and efficient back-ends, are the future that has already arrived."
   },
   "educationDegrees": {
-    "title": "Education 📕",
+    "title": "Education & Qualifications",
     "degrees": [
       {
-        "collage": "University of La Matanza",
-        "name": "Engineer Degree",
-        "itemList": ["Computer Science"],
-        "startEndDate": "March 2013 - December 2018"
+        "collage": "Griffith University",
+        "name": "Bachelor of Commerce",
+        "itemList": [
+          "Accounting & Finance Double Major",
+          "CFA Research Competition participant",
+          "International exchange student ambassador"
+        ],
+        "startEndDate": "March 2012 - December 2016"
       },
       {
-        "collage": "University of La Matanza",
-        "name": "Software Engineering Technician",
-        "itemList": ["Computer Science"],
-        "startEndDate": "March 2013 - December 2016"
+        "collage": "University of Hong Kong",
+        "name": "Bachelor of Business",
+        "itemList": [
+          "Accounting & Finance, International Exchange Year"
+        ],
+        "startEndDate": "July 2015 - May 2016"
       },
       {
-        "collage": "Instituto Madero",
-        "name": "Electronic technician",
-        "itemList": ["Electronic"],
-        "startEndDate": "March 2007 - December 2012"
+        "collage": "Chartered Financial Analyst Institute",
+        "name": "CFA Level 2 Candidate",
+        "itemList": [
+          "Passed CFA level 2 exam in December 2017, Sydney."
+        ],
+        "startEndDate": "December 2017"
       }
     ]
   },
   "workExperiences": {
-    "title": "Work Expecience 🔨",
+    "title": "Experience",
     "works": [
       {
-        "position": "Software Engineer / FullStack Developer",
-        "companie": "Axum - Smart Solutions",
+        "position": "Front-end Developer",
+        "companie": "TaiwanMe",
         "responsabilities": [
-          "Responsible for designing, developing and maintaining a group of applications used in the retail industry by multinational companies as Pepsico, Unilever, Quilmes, etc.",
-          "Web Team leader, I take technical decisions about which technologies use in each project and how the team will works.",
-          "Backend Developer: .NET Core | .NET Framework | NodeJs | MSSQL | PostgreSQL | MongoDB.",
-          "Frontend Developer: VueJs | ReactJs | Javascript | JQuery.",
-          "Desktop Applications: .NET Windows Form Applications."
+          "Stack used - Wordpress, PHP, HTML, CSS.",
+          "Led 3 person designer and development team.",
+          "Installed Google Analytics, Google Search Console, and Google Tag Manager.",
+          "Created content strategy and post timeline."
         ],
-        "startEndDate": "November 2017 - Present"
+        "startEndDate": "September 2018 - March 2019"
       },
       {
-        "position": "Technical Administrator",
-        "companie": "Metalurgica Vezeta",
+        "position": "Chief Financial Officer",
+        "companie": "LocalCoinSwap",
         "responsabilities": [
-          "Responsible for web ecommerce designing and maintaining.",
-          "Graphic design (Adobe Photoshop and Adobe Illustrator).",
-          "Technical support.",
-          "Improve business processes."
+          "Wrote white-paper and designed application architecture.",
+          "Planned and managed IPO marketing strategy.",
+          "Developed and managed user community.",
+          "Raised $12M in IPO fundraising."
         ],
-        "startEndDate": "March 2014 - October 2017"
+        "startEndDate": "October 2017 - August 2018"
+      },
+      {
+        "position": "Business Development Manager",
+        "companie": "TradingView",
+        "responsabilities": [
+          "Business development manager for Australia.",
+          "Developed and managed Australian community.",
+          "Grew Australian platform user-base from 30,000 to over 100,000.",
+          "Grew monthly Australian sessions to over 1 million."
+        ],
+        "startEndDate": "August 2017 - January 2018"
+      },
+      {
+        "position": "Finance Officer",
+        "companie": "Sincalir Knight Merz",
+        "responsabilities": [
+          "Prepared quarterly and annual ROI reports.",
+          "Prepared custom designed financial performance reports.",
+          "Worked closely with project managers from architectural, engineering and economic divisions.",
+          "Managed budgeting and invoicing for large multi-million dollar infrastructure projects."
+        ],
+        "startEndDate": "September 2011 - March 2014"
+      },
+      {
+        "position": "Invoicing Officer",
+        "companie": "ISS Australia",
+        "responsabilities": [
+          "Prepared and managed invoicing for patrols department.",
+          "Assisted finance manager with budgeting and reporting.",
+          "Forecasted budgetory concerns for patrols department."
+        ],
+        "startEndDate": "February 2011 - August 2011"
       }
     ]
   },
   "skills": {
-    "title": "Skills 🎯",
-    "iconsTitle": "Programming Languages & Tools",
+    "title": "Skills & Portfolio",
+    "iconsTitle": "Prefered Stack",
     "devIcons": [
-      "devicon-csharp-plain",
       "devicon-javascript-plain",
-      "devicon-html5-plain-wordmark",
-      "devicon-css3-plain-wordmark",
-      "devicon-git-plain",
-      "devicon-nodejs-plain",
-      "devicon-bootstrap-plain",
-      "devicon-github-original",
-      "devicon-bitbucket-original-wordmark",
-      "devicon-dot-net-original-wordmark",
-      "devicon-jquery-plain-wordmark",
-      "devicon-linux-plain",
-      "devicon-windows8-original",
-      "devicon-illustrator-plain",
-      "devicon-photoshop-plain",
-      "devicon-react-original",
-      "devicon-visualstudio-plain",
-      "devicon-dot-net-plain",
       "devicon-vuejs-plain",
-      "devicon-postgresql-plain"
+      "devicon-wordpress-plain",
+      "devicon-nodejs-plain",
+      "devicon-express-original",
+      "devicon-mongodb-plain",
+      "devicon-redis-plain",
+      "devicon-mysql-plain",
+      "devicon-postgresql-plain",
+      "devicon-amazonwebservices-original",
+      "devicon-docker-plain"
     ],
-    "workflow": "Workflow",
+    "workflow": "Soft Skills",
     "itemList": [
-      "Responsive Design & UX",
-      "Cross Browser Testing & Debugging",
-      "REST API building",
+      "Intuitive / Collaborative / Problem Solver",
       "Agile Development & Scrum",
-      "Team working",
-      "Design Patterns"
-    ]
+      "Website Architecture Planning",
+      "Front-End Design Patterns"
+    ],
+    "portfolio": "Portfolio Links",
+    "portfolioLinks": ["<a href='https://travel.taiwanme.com/guguan-hot-springs-boai-village/'>Example TaiwanMe website design and writing</a>"]
   },
   "interests": {
-    "title": "Hobbies 😄",
-    "firstBlock": "Apart from being a web developer, I enjoy most of my time listening and playing music. I love playing piano and singing in my spare time!. 🎹🎵",
-    "secondBlock": "I spend a large amount of my free time exploring the latest technolgy advancements in the frontend and backend web technology development world and coding in my personal projects! 🙌👨‍💻"
+    "title": "About Me",
+    "firstBlock": "Apart from web development and technology, my interests include reading (philosophy, psychology and history), travelling, and playing soccer (footbal).",
+    "secondBlock": "During my downtime, I can be found watching history and war documentaries or listening to podcasts. I also enjoy meditating, and have sat three 10-day meditation retreats since 2014. I consider this to be a cornerstone of my self-development and think the world would be a better place if everyone sat at least one 10-day retreat in their lifetimes."
   },
   "projects": {
-    "title": "Personal Projects 🦾🧠",
+    "title": "Projects",
     "projectsInfo": [
       {
-        "name": "Kelawar",
-        "description": "Kelawar is a Big Data + IoT project. Which through masive recollections of data, we provide useful information about the clients behavior. ",
-        "image": "/images/kelawar.jpg",
-        "siteUrl": "https://kelawar.com/"
-      },
-      {
-        "name": "Docuisy",
-        "description": "Docuisy is a Wiki, generator based on .md files",
-        "image": "/images/docuisy.png",
-        "siteUrl": "https://github.com/ivangreve/docuisy"
-      },
-      {
-        "name": "Better Drive",
-        "description": "Better Drive is a free tool to analyze your Google Drive account. Google Drive is a powerful file storage and synchronization service, but sometimes you feel like you lose control of it. Keeping privacy concerns in mind, that many users have, we built this great tool to help you organize, clean, and leverage the use of your Google Drive.",
-        "image": "/images/better-drive.png",
-        "siteUrl": "https://betterdrive.app/"
-      },
-      {
-        "name": "Resume Nuxt Template",
-        "description": "I made a simple and customizable template with nuxt and multilanguage support (i18n)",
-        "image": "/images/resumenuxt.jpg",
-        "siteUrl": "https://github.com/ivangreve/nuxt-resume"
+        "name": "",
+        "description": "",
+        "image": "",
+        "siteUrl": ""
       }
     ]
   }

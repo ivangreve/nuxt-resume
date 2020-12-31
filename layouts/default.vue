@@ -1,25 +1,10 @@
 <template>
   <div>
-    <!-- Navigation -->
-    <!-- <Navigation /> -->
-    <!-- Content -->
     <div class="container content">
       <nuxt/>
     </div>
   </div>
 </template>
-
-<!--
-<script>
-import Navigation from "@/components/Navigation"
-
-export default {
-  components: {
-    Navigation
-  }  
-}
-</script>
--->
 
 <style>
 html {

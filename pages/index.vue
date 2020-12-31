@@ -5,7 +5,7 @@
       id="sideNav"
     >
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Resume Iván</span>
+        <span class="d-block d-lg-none">Thomas Underwood</span>
         <span class="d-none d-lg-block">
           <img
             class="img-fluid img-profile rounded-circle mx-auto mb-2"
@@ -38,14 +38,6 @@
           <li class="nav-item">
             <a
               class="nav-link js-scroll-trigger"
-              @click="jumpTo('#education')"
-              href="#"
-              >{{ $t('links.education') }}</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link js-scroll-trigger"
               @click="jumpTo('#experience')"
               href="#"
               >{{ $t('links.experience') }}</a
@@ -54,25 +46,33 @@
           <li class="nav-item">
             <a
               class="nav-link js-scroll-trigger"
+              @click="jumpTo('#education')"
+              href="#"
+              >{{ $t('links.education') }}</a
+            >
+          <li class="nav-item">
+            <a
+              class="nav-link js-scroll-trigger"
               @click="jumpTo('#skills')"
               href="#"
               >{{ $t('links.skills') }}</a
             >
           </li>
+          <!-- <li class="nav-item">
+            <a
+              class="nav-link js-scroll-trigger"
+              @click="jumpTo('#projects')"
+              href="#"
+              >{{ $t('links.projects') }}</a
+            >
+          </li> -->
+          
           <li class="nav-item">
             <a
               class="nav-link js-scroll-trigger"
               @click="jumpTo('#interests')"
               href="#"
               >{{ $t('links.interests') }}</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link js-scroll-trigger"
-              @click="jumpTo('#projects')"
-              href="#"
-              >{{ $t('links.projects') }}</a
             >
           </li>
           <li class="nav-item">
@@ -84,9 +84,6 @@
             <div style="position:fixed; bottom:10px; right: 10px;z-index:1000;">
               <nuxt-link class="btn btn-light" :to="switchLocalePath('en')"
                 >EN</nuxt-link
-              >
-              <nuxt-link class="btn btn-light" :to="switchLocalePath('es')"
-                >ES</nuxt-link
               >
             </div>
           </li>
@@ -112,7 +109,14 @@ export default {
   },
   head() {
     return {
-      title: "Iván Greve"
+      title: "Thomas Underwood",
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Web developer and content creator from Australia - Thomas Underwood.'
+        }
+      ],
     };
   },
   methods: {
