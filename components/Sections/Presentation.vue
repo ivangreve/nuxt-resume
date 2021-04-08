@@ -1,6 +1,14 @@
 <template>
-  <div class="my-auto">
-    <h1 class="mb-0">
+  <div class="my-auto mx-auto">
+    <span class="d-block d-lg-none text-center mb-5">
+      <img
+        class="img-fluid img-profile rounded-circle mx-auto mb-2"
+        src="/profile.jpg"
+        alt=""
+      />
+    </span>
+
+    <h1 class="mb-2">
       {{ $t('personalInfo.name') }}
       <span class="text-primary">{{ $t('personalInfo.lastName') }}</span>
     </h1>
@@ -21,40 +29,28 @@
       ></vue-typer>
     </h3>
 
-    <div class="subheading mb-5">
+    <div class="subheading mb-3">
       {{ $t('personalInfo.city') }} · {{ $t('personalInfo.phoneNumber') }} ·
-      <a href="mailto:name@email.com">{{ $t('personalInfo.email') }}</a>
+      {{ $t('personalInfo.email') }}
     </div>
-    <p class="mb-5">
+    <p class="mb-3">
       {{ $t('personalInfo.myDescription') }}
     </p>
-    <ul class="list-inline list-social-icons mb-0">
-      <!-- <li class="list-inline-item">
-        <a href="#">
-          <span class="fa-stack fa-lg">
-            <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-      </li> -->
 
+    <div class="subheading mb-3">Find me on</div>
+    <ul class="list-inline list-icons" style="text-align:left">
       <li class="list-inline-item">
-        <a target="blank" :href="$t('personalInfo.linkedin')">
-          <span class="fa-stack fa-lg">
-            <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
+        <a href="https://github.com/DeveloperThomas"><i class="devicon-github-original"></i></a>
       </li>
       <li class="list-inline-item">
-        <a target="blank" :href="$t('personalInfo.github')">
-          <span class="fa-stack fa-lg">
-            <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fab fa-github-alt fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
+        <a href="https://twitter.com/AussieUnderwood"><i class="devicon-twitter-plain"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.linkedin.com/in/tomunderwood1/"><i class="devicon-linkedin-plain"></i></a>
       </li>
     </ul>
+
+    
   </div>
 </template>
 

@@ -3,13 +3,17 @@ export default {
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode
    */
-  mode: "universal",
+  target: "static",
+
+  router: {
+  },
+  
   /*
    ** Headers of the page
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    title: process.env.npm_package_name || "",
+    title: "Thomas Underwood",
     script: [
       {
         src:
@@ -31,7 +35,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: process.env.npm_package_description || ""
+        content: "Web developer and content creator from Australia - Thomas Underwood."
       }
     ],
     link: [
@@ -94,7 +98,7 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: ["@nuxtjs/style-resources", "@nuxtjs/color-mode"],
+  buildModules: ["@nuxtjs/style-resources", "@nuxtjs/color-mode", '@nuxtjs/tailwindcss'],
   styleResources: {
     // your settings here
     scss: ["'./assets/scss/*.scss'", "./assets/scss/resume.scss"]
@@ -113,13 +117,12 @@ export default {
     ["@nuxtjs/style-resources"]
   ],
   i18n: {
-    locales: ["en", "es"],
+    locales: ["en"],
     defaultLocale: "en",
     vueI18n: {
       fallbackLocale: "en",
       messages: {
         en: require("./locales/en.json"),
-        es: require("./locales/es.json")
       }
     }
   },
@@ -151,4 +154,3 @@ export default {
     }
   }
 };
-

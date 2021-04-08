@@ -1,5 +1,5 @@
 {
-  "name": "ivan-resume",
+  "name": "nuxt-resume",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -10,17 +10,16 @@
   },
   "dependencies": {
     "jump.js": "^1.0.2",
-    "nuxt": "^2.13.0",
-    "nuxt-i18n": "^6.12.2",
+    "nuxt": "^2.14.7",
+    "nuxt-i18n": "^6.15.4",
     "vue-awesome-swiper": "^3.1.3",
     "vue-typer": "^1.2.0"
   },
   "devDependencies": {
-    "@nuxtjs/color-mode": "^1.0.0",
+    "@nuxtjs/color-mode": "^1.1.1",
     "@nuxtjs/style-resources": "^1.0.0",
+    "@nuxtjs/tailwindcss": "^3.4.2",
     "node-sass": "^4.14.1",
-    "pug": "^3.0.0",
-    "pug-plain-loader": "^1.0.0",
     "sass-loader": "^7.3.1"
   }
 }

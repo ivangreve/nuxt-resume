@@ -7,6 +7,7 @@
     <p class="mb-0">
       {{ $t('interests.secondBlock') }}
     </p>
+    <img src="/Thomas-Underwood-soccer.jpg" class="about-photo"/>
   </div>
 </template>
 
